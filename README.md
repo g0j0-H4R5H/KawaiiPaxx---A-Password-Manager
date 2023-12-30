@@ -1,3 +1,3 @@
 KawaiiPaxx serves as a web-based password management application designed to securely store your various app credentials, eliminating the need for memorization. Employing CSRF protection, the app ensures that unauthorized access through your ID is prevented. Your credentials are safeguarded through AES encryption, making them indecipherable to unauthorized individuals. KawaiiPaxx is versatile, functioning seamlessly on both laptops and mobile devices.
-It is built using HTML, CSS, JS for Front-End; Django for Back-End development and SQLite3 for Database
+It is built using HTML, CSS, JS for Front-End; Django for Back-End development and SQLite3 for Database.
 Website Link :- https://kawaiipaxx.pythonanywhere.com
