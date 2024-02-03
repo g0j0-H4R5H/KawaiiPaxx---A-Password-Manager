@@ -1,4 +1,4 @@
-//display  modal on click
+// For modals
 const modalWrapper = document.querySelector(".modals-wrapper");
 if (modalWrapper){
     function displayModal(id){
@@ -6,7 +6,6 @@ if (modalWrapper){
         modalWrapper.style.display = "flex";
         modal.style.display = "flex";
         
-        //close modal
         const close = document.getElementById("close-modal");
         close.addEventListener("click", () =>{
             modalWrapper.style.display = "none";
@@ -17,23 +16,19 @@ if (modalWrapper){
         // Redirect to the home page
         window.location.href = homePageUrl;
         })
-
-      
         document.querySelector("header").style.display = "none";
         document.querySelector("footer").style.display = "none";
     }
 }
 
-
+// For copying text
 function copyText(txt) {
     navigator.clipboard.writeText(txt).then(
       () => {
-        // Clipboard successfully set, no need for any additional action
       },
     );
   }
-
-//Display the actions of the password card for mobile devices
+// For actions
 const actions = document.querySelectorAll(".actions");
 if (actions){
     actions.forEach(action =>{
