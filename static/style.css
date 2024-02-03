@@ -1,4 +1,4 @@
-/*############# global #######""*/
+/********Global styling************/
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,300&family=Poppins:wght@300;400;600&display=swap');
 
 *{
@@ -44,7 +44,7 @@ input:focus{
     border: solid 1px var(--link-background-color);
 }
 
-/*########### header #######"*/
+/******** Header Part ********"*/
 body {
     margin: 0;
     padding: 0;
@@ -88,7 +88,7 @@ header nav ul li{
 }
 
 
-/*#########   footer #######"*/
+/***********Footer Part*********8*/
 
 footer{
     bottom: 0;
@@ -100,7 +100,7 @@ footer{
 }
 
 
-/*#########   modals #######"*/
+/********** Modals Styling********/
 
 .modals-wrapper{
     width: 100%;
@@ -153,12 +153,12 @@ footer{
     align-items: center;
     text-align: center;
 }
-
+/****** Copy feature*********/
 .copy{
     cursor: pointer;
 }
 
-/*#########   card #######"*/
+/*********** Card Styling *********/
 
 .container{
     margin-top: 20px;
@@ -215,8 +215,6 @@ footer{
         width: 375px;
     }
 }
-
-/*Change the size of the modal in the small devices*/
 @media screen and (max-width: 680px) {
     .modal{
         min-height: 300px;
